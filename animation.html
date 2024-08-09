@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        img{
+            border-radius: 50%;
+            display: flex;
+            float: inline-end;
+            
+        }
+        #pics{
+            animation: 3s profile linear infinite;
+        }
+        @keyframes profile{
+            0%{
+                transform: translatey(0px);
+            }
+            50%{
+                transform: translatey(20px);
+            }
+            100%{
+                transform: translatey(0px);
+            }
+        }
+        #nice{
+            border: dotted brown;
+        }
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <img id="pics" src="media/arrow.jpg" height="50px" alt="">
+    <p id="nice">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quas esse quidem distinctio quo itaque officiis nostrum minus ullam? Aut nulla molestias molestiae. Beatae, accusamus odio rem ut exercitationem nostrum nobis.</p>
+</body>
+</html>

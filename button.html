@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        button{
+            color: white;
+            padding:8.5px ;
+            border-radius: 20px;
+            background-color: lightblue;
+        }
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>button</title>
+</head>
+<body>
+    <div>
+        <p>Lorem ipsum dolor sit amet consectetur adipisic</p>
+        <button onclick="showLorem()">learn more</button>
+    </div>
+    <div id="off">
+        <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consequatur, culpa. Minima enim saepe quidem dolore, omnis tempore dignissimos mollitia. Ullam libero illo sunt, saepe magni error quis vero. Incidunt, harum!
+           <button  onclick="hideLorem()">less</button>
+        </p>
+
+    </div>
+    <script>
+        function showLorem(){
+            document.getElementById('off').style.display='block' 
+        }
+        function hideLorem(){
+            document.getElementById('off').style.display='none'
+        }
+       
+        
+    </script>
+    
+    
+
+
+    
+</body>
+</html>

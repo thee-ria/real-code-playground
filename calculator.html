@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input id="a" type="number" placeholder="enter first number"><br><br>
+
+    <input id="op" type="text" placeholder="enter maths operator"><br><br>
+
+    <input id="b" type="number" placeholder="enter second number"><br><br>
+<input onclick="cal()" type="submit"><br>
+    
+    <h2 id="result"></h2>
+
+    <script>
+        function cal(){
+        let a = document.getElementById('a').value;
+        let b = document.getElementById('b').value;
+        let op = document.getElementById('op').value;
+        let result;
+
+        if(op == "+"){
+            result = a+b;
+        }
+        else if(op == "-"){
+            result = a-b;
+        }
+        else if(op == "*"){
+            result = a*b;
+        }
+        else if(op == "/"){
+            result = a/b;
+        }
+        let data = "a";
+        let type = typeof data;
+        a = Number(a)
+        b = Number(b)
+        document.getElementById('result').innerHTML= result;a
+        window.alert(`solve ${a} ${op} ${b}
+        The answer is ${result}`)
+        }
+    </script>
+</body>
+</html>

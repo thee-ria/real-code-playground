@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style2.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+    <nav>
+    <hr>
+    <ul class="sidebar">   
+    <li onclick="hideSideBar()"><img height="30px" src="media/xmark-solid.svg" alt=""></li>
+    
+    <li><a href="about.html">About us</a></li>
+    
+    <li><a href="service.html">Our services</a></li>
+    
+    <li><a href="contact.html">Contact us</a></li>
+    
+    <li><a href="css.html">Our blog</a></li>
+    
+    </ul>
+        <ul>
+            <li class="showOnMobile"><img src="media/google-brands-solid.svg" height="30px" alt=""></li>
+            <li class="hideOnMobile"><a href="about.html">About us</a></li>
+            <li class="hideOnMobile"><a href="service.html">Our services</a></li>
+            <li class="hideOnMobile"><a href="contact.html">Contact us</a></li>
+            <li class="hideOnMobile"><a href="css.html">Our blog</a></li>
+            <li class="showOnMobile" onclick="showSideBar()"><img  src="media/bars-solid.svg" height="25px" alt=""></li>
+
+            
+        </ul>
+       
+    </nav>
+    </header>
+    <main>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores consequatur illum saepe et facere laudantium veritatis possimus aut. Corrupti molestiae hic omnis aperiam tenetur esse, cumque error fuga asperiores neque.</p>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Id aut repellendus harum officia officiis odio sed, rem aliquam nemo consectetur possimus inventore iste, laudantium nostrum maiores, cumque incidunt mollitia saepe?</p>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Omnis facere magnam deserunt sequi ratione voluptatibus, error dignissimos incidunt magni inventore deleniti similique iusto quam est fuga minus adipisci officiis! Natus.</p>
+    </main>
+    <hr>
+    <footer>
+        <a href="index.html">
+        <h4>you can contact us on the following media</h4>
+        <img src="media/facebook-brands-solid.svg" height="40px" alt=""> 
+        <img src="media/instagram-brands-solid.svg" height="40px" alt="">
+        <img src="media/x-twitter-brands-solid.svg" height="40px" alt="">
+        <img src="media/tiktok-brands-solid.svg" height="40px" alt="">
+        <br>
+        </a>
+        <br>
+        <a href="about.html">About us</a>
+        <a href="contact.html">Contact us</a>
+        <a href="css.html">Our blog</a>
+        <br><br>
+        Contact us: 08039607557
+        <br><br>
+        Message us:Tofunmi@gmail.com
+        <br>
+        <hr>
+    </footer>
+    <img src="media/" alt="">
+    <script>
+        function showSideBar(){
+            document.querySelector(".sidebar").style.display = "block"
+        }
+        function hideSideBar(){
+            document.querySelector(".sidebar").style.display = "none"
+        }
+       
+    </script>
+    
+    
+    </body>
