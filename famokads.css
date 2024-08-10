@@ -24,6 +24,11 @@ nav li:first-child{
         display: none;
     }
 }
+@media (min-width:700px){
+    #hide{
+        display: none;
+    }
+}
 .sidebar{
     position: absolute;
     flex-direction: column;
@@ -32,7 +37,7 @@ nav li:first-child{
     height: 100vh;
     align-items: flex-start;
     justify-content: flex-start;
-    background-color: rgba(228, 198, 158, 0.801);
+    background-color: rgba(209, 78, 78, 0.87);
     backdrop-filter: blur;
     display: none;
 }
