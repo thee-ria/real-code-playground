@@ -143,9 +143,12 @@ form{
 }
 footer{
 background-color:lightyellow;
+display: flex;
+flex-wrap: wrap;
 }
 #pics{
     animation: 2s profile linear infinite;
+    
 }
 @keyframes profile {
     0%{
