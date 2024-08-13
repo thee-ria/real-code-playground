@@ -1,0 +1,21 @@
+nav{
+    background-color: navy;
+    box-shadow: 3px 3px 5px navy;
+}
+ul{
+    list-style: none;
+    display: flex;
+}
+a{
+    color: black;
+    text-decoration: none;
+    padding: 10px;
+}
+nav li:first-child{
+    margin-right: auto;
+}
+@media(max-width:700px){
+    .hideOnMobile{
+        display: none;
+    }
+}
